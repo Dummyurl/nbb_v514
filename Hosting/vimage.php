@@ -20,14 +20,14 @@
 	 ## 18/09/2003
 class vImage{
 
-	var $numChars = 6; # Size String: default 3;
+	var $numChars = 3; # Size String: default 3;
 	var $w; # Image Width
 	var $h = 30; # Image Height: default 15;
 	var $colBG = "188 220 231";
 	var $colTxt = "0 0 0";
 	var $colBorder = "0 128 192";
 	var $charx = 20; # Space side of each char
-	var $numCirculos = 20; #Picking random numbers of circles
+	var $numCirculos = 2; #Picking random numbers of circles
 	
 	
 	function vImage(){
@@ -110,7 +110,7 @@ class vImage{
 	
 	function gerString(){
 		rand(0,time());
-		$possible="AGHacefhjkrStVxY124579";
+		$possible="123";
         if(!isset($str)) $str = '';
 		while(strlen($str)<$this->numChars)
 		{
