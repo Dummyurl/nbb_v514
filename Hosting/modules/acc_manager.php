@@ -26,6 +26,7 @@ if ( !isset($_SESSION['mu_username']) ) {
     else $act = null;
 		switch ($act)
 		{
+			case 'buy_server_vip': include('modules/acc_manager/buy_server_vip.php'); break;
 			case 'ipbonus_list': include('modules/acc_manager/ipbonus_list.php'); break;
 			case 'invite': include('modules/acc_manager/invite.php'); break;
 			case 'changeinfo': include('modules/acc_manager/changeinfo.php'); break;

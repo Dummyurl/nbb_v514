@@ -435,7 +435,7 @@ switch ($giftcode_type) {
         $log_gcoin_km = $info_log[1];
         $log_vpoint = $info_log[2];
         $log_price = "-";
-        $log_Des = "Tài khoản $login đã đổi GiftCode $gift_code cho nhân vật : $name. và tăng Reset lên $gift_reset_up_to lần";
+        $log_Des = "Tài khoản $login đã đổi GiftCode $gift_code cho nhân vật : $name và tăng Reset lên $gift_reset_up_to lần";
         $log_time = $timestamp;
 
         $insert_log_query = "INSERT INTO Log_TienTe (acc, gcoin, gcoin_km, vpoint, price, Des, time) VALUES ('$log_acc', $log_gcoin, $log_gcoin_km, $log_vpoint, '$log_price', N'$log_Des', $log_time)";

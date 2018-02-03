@@ -9,7 +9,11 @@
 <!-- End Title -->            
 <!-- Content -->
 <div class="pad10">
-    
+	<a href="#acc_manager&act=buy_server_vip" rel="ajax" class="cont03">
+		<p><img src="images/dot.png" alt="" />Đăng kí SV VIP
+			<span style="line-height:18px">Đăng kí chơi Server VIP</span></p>
+	</a>
+
     <a href="#acc_manager&act=ipbonus_list" rel="ajax" class="cont03">
 		<p><img src="images/dot.png" alt="" />IP Bonus
 		<span style="line-height:18px">Danh sách Quán NET</span></p>
