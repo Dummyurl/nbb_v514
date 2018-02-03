@@ -1,0 +1,14 @@
+PhoenixBoots|11075F012345673F00B0000000000000|Chân Phượng Hoàng Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DarkPhoenixBoots.gif|
+HolySpritBoots|130759012345673F00B0000000000000|Chân Giai Nhân Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DivineBoots.gif|
+GrandSoulBoots|120752001234563F00B0000000000000|Chân Triệu Hồn Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|GrandSoulBoots.gif|
+ThunderBoots|140761001234563F00B0000000000000|Chân Lôi Phong Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|ThunderHawkBoots.gif|
+DarkSteelBoots|1B0755001234563F00B0000000000000|Chân Hắc Vương Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DarkSteelBoots.gif|
+AuraBoots|2B0759001234563F00B0000000000000|Chân Thạch Anh Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2||
+
+DragonBoots|010453001234567F00B0000000000000|Chân Hỏa Long Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|DragonBoots.gif|
+GuardianBoots|0E04C0001234567F00B0000000000000|Chân Kim Ngân Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|GuardianBoots.gif|
+LegendaryBoots|030490001234567F00B0000000000000|Chân Huyền Thoại Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|LegendaryBoots.gif|
+UnicornBoots|0F045F001234567F00B0000000000000|Chân Phong Vũ Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|UnicornBoots.gif|
+AdamantineBoots|1A0447001234567F00B0000000000000|Chân Huyền Thiết Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AdamantineBoots.gif|
+AncientBoots|290445001234567F00B0000000000000|Chân Cổ Phong Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AncientBoots.gif|
+SacredBoots|3B0443001234567F00B0000000000000|Chân Sacred Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2||

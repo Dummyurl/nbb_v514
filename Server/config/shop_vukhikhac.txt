@@ -1,0 +1,3 @@
+SacredGlove|208450001234563F0000000000000000|Sacred Glove Full 6 dòng hoàn hảo +0 Luck 12Op|30000|1|4||
+HollyStormClaws|21845C012345607F0000000000000000|Vuốt HollyStorm Full 6 dòng hoàn hảo +0 Luck 12Op|50000|1|4||
+PiercingGlove|228465012345607F0000000000000000|Găng Piercing Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|100000|1|4||

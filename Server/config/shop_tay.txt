@@ -1,0 +1,13 @@
+PhoenixGloves|11075F012345673F00A0000000000000|Tay Phượng Hoàng Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DarkPhoenixGloves.gif|
+HolySpritGloves|130759012345673F00A0000000000000|Tay Giai Nhân Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DivineGloves.gif|
+GrandSoulGloves|120752001234563F00A0000000000000|Tay Triệu Hồn Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|GrandSoulGloves.gif|
+ThunderGloves|140761001234563F00A0000000000000|Tay Lôi Phong Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|ThunderHawkGloves.gif|
+DarkSteelGloves|1B0755001234563F00A0000000000000|Tay Hắc Vương Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DarkSteelGloves.gif|
+AuraGloves|2B0759001234563F00A0000000000000|Tay Thạch Anh Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2||
+
+DragonGloves|010453001234567F00A0000000000000|Tay Hỏa Long Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|DragonGloves.gif|
+GuardianGloves|0E04C0001234567F00A0000000000000|Tay Kim Ngân Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|GuardianGloves.gif|
+LegendaryGloves|030490001234567F00A0000000000000|Tay Huyền Thoại Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|LegendaryGloves.gif|
+UnicornGloves|0F045F001234567F00A0000000000000|Tay Phong Vũ Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|UnicornGloves.gif|
+AdamantineGloves|1A0447001234567F00A0000000000000|Tay Huyền Thiết Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AdamantineGloves.gif|
+AncientGloves|290445001234567F00A0000000000000|Tay Cổ Phong Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AncientGloves.gif|

@@ -1,0 +1,12 @@
+PhoenixHelm|11075F012345673F0070000000000000|Mũ Phượng Hoàng Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DarkPhoenixHelm.gif|
+HolySpritHelm|130759012345673F0070000000000000|Mũ Giai Nhân Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DivineHelm.gif|
+GrandSoulHelm|120752001234563F0070000000000000|Mũ Triệu Hồn Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|GrandSoulHelm.gif|
+DarkSteelHelm|1B0755001234563F0070000000000000|Mũ Hắc Vương Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DarkSteelHelm.gif|
+AuraHelm|2B0759001234563F0070000000000000|Mũ Thạch Anh Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2||
+
+DragonHelm|010453001234567F0070000000000000|Mũ Hỏa Long (Dragon) Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|DragonHelm.gif|
+GuardianHelm|0E04C0001234567F0070000000000000|Mũ Kim Ngân (Guardian) Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|GuardianHelm.gif|
+LegendaryHelm|030490001234567F0070000000000000|Mũ Huyền Thoại (Legendary) Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|LegendaryHelm.gif|
+AdamantineHelm|1A0447001234567F0070000000000000|Mũ Huyền Thiết (Adamantine) Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AdamantineHelm.gif|
+AncientHelm|290445001234567F0070000000000000|Mũ Cổ Phong (Ancient) Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AncientHelm.gif|
+SacredHelm|3B0431001234567F0070000000000000|Mũ Sacred Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2||

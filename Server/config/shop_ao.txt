@@ -1,0 +1,14 @@
+PhoenixArmor|11075F012345673F0080000000000000|Áo Phượng Hoàng Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|3|DarkPhoenixArmor.gif|
+HolySpritArmor|130759012345673F0080000000000000|Áo Giai Nhân Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DivineArmor.gif|
+GrandSoulArmor|120752001234563F0080000000000000|Áo Triệu Hồn Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|3|GrandSoulArmor.gif|
+ThunderArmor|140761001234563F0080000000000000|Áo Lôi Phong Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|3|ThunderHawkArmor.gif|
+DarkSteelArmor|1B0755001234563F0080000000000000|Áo Hắc Vương Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|3|DarkSteelArmor.gif|
+AuraArmor|2B0759001234563F0080000000000000|Áo Thạch Anh Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2||
+
+DragonArmor|010453001234567F0080000000000000|Áo Hỏa Long Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|3|DragonArmor.gif|
+GuardianArmor|0E04C0001234567F0080000000000000|Áo Kim Ngân Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|GuardianArmor.gif|
+LegendaryArmor|030490001234567F0080000000000000|Áo Huyền Thoại Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|LegendaryArmor.gif|
+UnicornArmor|0F045F001234567F0080000000000000|Áo Phong Vũ Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|3|UnicornArmor.gif|
+AdamantineArmor|1A0447001234567F0080000000000000|Áo Huyền Thiết Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|3|AdamantineArmor.gif|
+AncientArmor|290445001234567F0080000000000000|Áo Cổ Phong Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AncientArmor.gif|
+SacredArmor|3B0443001234567F0080000000000000|Áo Sacred Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2||

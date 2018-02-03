@@ -1,0 +1,8 @@
+CREATE TABLE [Log_chuyensv] (
+	[id] [int] IDENTITY (1, 1) NOT NULL ,
+	[acc] [varchar] (10) NOT NULL,
+	[char] [varchar] (10) NOT NULL,
+	[accnew] [varchar] (10) NOT NULL,
+	[charnew] [varchar] (10) NOT NULL
+) ON [PRIMARY]
+GO

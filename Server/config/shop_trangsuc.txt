@@ -1,0 +1,12 @@
+PendantOfLightning|0C0041001234563F00D0000000000000|Dây chuyền Sét Full 6 dòng hoàn hảo +0|30000|1|1|PendantOfLightning.gif|
+PendantOfFire|0D0041001234563F00D0000000000000|Dây chuyền Lửa Full 6 dòng hoàn hảo +0|30000|1|1|PendantOfFire.gif|
+PendantOfIce|190041001234563F00D0000000000000|Dây chuyền Băng Full 6 dòng hoàn hảo +0|30000|1|1|PendantOfIce.gif|
+PendantOfWind|1A0041001234563F00D0000000000000|Dây chuyền Gió Full 6 dòng hoàn hảo +0|30000|1|1|PendantOfWind.gif|
+PendantOfWater|1B0041001234563F00D0000000000000|Dây chuyền Nước Full 6 dòng hoàn hảo +0|30000|1|1|PendantOfWater.gif|
+PendantOfAbility|1C0041001234563F00D0000000000000|Dây chuyền Kỹ Năng 6 dòng hoàn hảo +0|30000|1|1|PendantOfAbility.gif|
+RingOfIce|080041001234563F00D0000000000000|Nhẫn Băng Full 6 dòng hoàn hảo +0|30000|1|1|RingOfIce.gif|
+RingOfPoison|090041001234563F00D0000000000000|Nhẫn Độc Full 6 dòng hoàn hảo +0|30000|1|1|RingOfPoison.gif|
+RingOfFire|150041001234563F00D0000000000000|Nhẫn Lửa Full 6 dòng hoàn hảo +0|30000|1|1|RingOfFire.gif|
+RingOfEarth|160041001234563F00D0000000000000|Nhẫn Đất Full 6 dòng hoàn hảo +0|30000|1|1|RingOfEarth.gif|
+RingOfWind|170041001234563F00D0000000000000|Nhẫn Gió Full 6 dòng hoàn hảo +0|30000|1|1|RingOfWind.gif|
+RingOfMagic|180041001234563F00D0000000000000|Nhẫn Phép thuật Full 6 dòng hoàn hảo +0|30000|1|1|RingOfMagic.gif|

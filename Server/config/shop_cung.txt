@@ -1,0 +1,6 @@
+ChaosNatureBow|068753001234563F0040000000000000|Mai Hoa Cung Full 6 dòng hoàn hảo +0 Luck 12Op|30000|2|3|ChaosNatureBow.gif|
+GreatReignCrossBow|13845F012345607F0040000000000000|Nỏ Thánh Nữ Full 6 dòng hoàn hảo +0 Luck 12Op|30000|1|4||
+
+SylphWindBow|15846C012345607F0040000000000000|Cung Thái Bình Full 6 dòng hoàn hảo +0 Luck 12Op|100000|1|4||
+
+DarkStingerBow|17845F012345607F0040000000000000|Cung Thiên Vũ Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|150000|1|4||

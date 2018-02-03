@@ -1,0 +1,33 @@
+<?php
+$cap_relife_max	= 10;
+$rl_reset_relife1	= 300;
+$rl_point_relife1	= 15000;
+$rl_ml_relife1	= 5000;
+$rl_reset_relife2	= 400;
+$rl_point_relife2	= 25000;
+$rl_ml_relife2	= 10000;
+$rl_reset_relife3	= 500;
+$rl_point_relife3	= 40000;
+$rl_ml_relife3	= 15000;
+$rl_reset_relife4	= 700;
+$rl_point_relife4	= 60000;
+$rl_ml_relife4	= 20000;
+$rl_reset_relife5	= 1000;
+$rl_point_relife5	= 90000;
+$rl_ml_relife5	= 30000;
+$rl_reset_relife6	= 2000;
+$rl_point_relife6	= 120000;
+$rl_ml_relife6	= 40000;
+$rl_reset_relife7	= 3000;
+$rl_point_relife7	= 150000;
+$rl_ml_relife7	= 50000;
+$rl_reset_relife8	= 4000;
+$rl_point_relife8	= 180000;
+$rl_ml_relife8	= 60000;
+$rl_reset_relife9	= 5000;
+$rl_point_relife9	= 210000;
+$rl_ml_relife9	= 65000;
+$rl_reset_relife10	= 6000;
+$rl_point_relife10	= 250000;
+$rl_ml_relife10	= 65000;
+?>

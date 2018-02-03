@@ -1,0 +1,8 @@
+1382103446
+DKVip<nbb>16<nbb>0<nbb>3<nbb>1<nbb><nbb>1<nbb>
+NhamSV1<nbb>16<nbb>0<nbb>0<nbb>400<nbb><nbb>1<nbb>
+NhamSV2<nbb>32<nbb>0<nbb>0<nbb>400<nbb><nbb>1<nbb>
+NhamSV3<nbb>64<nbb>0<nbb>0<nbb>400<nbb><nbb>1<nbb>
+NhamSV4<nbb>80<nbb>0<nbb>0<nbb>400<nbb><nbb>1<nbb>
+NhamSV5<nbb>0<nbb>0<nbb>0<nbb>400<nbb><nbb>1<nbb>
+Admin<nbb>82<nbb>0<nbb>0<nbb>300<nbb><nbb>1<nbb>

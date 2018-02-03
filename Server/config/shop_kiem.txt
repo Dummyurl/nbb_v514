@@ -1,0 +1,9 @@
+DestructionSword|108763001234563F0000000000000000|Kiếm Hủy Diệt Full 6 dòng hoàn hảo +0 Luck 12Op|30000|1|4|SwordofDestruction.gif|
+SpiritSword|118768001234563F0000000000000000|Thiên Ma Kiếm Full 6 dòng hoàn hảo +0 Luck 12Op|30000|2|4|SpiritSword.gif|
+
+BoneSword|16846E012345607F0000000000000000|Đao Quyền Năng Full 6 dòng hoàn hảo +0 Luck 12Op|100000|1|4||
+ExplosionBlade|17847D012345607F0000000000000000|Đao Hồng Long Full 6 dòng hoàn hảo +0 Luck 12Op|100000|1|4||
+
+ImperialSword|1C8469012345607F0000000000000000|Bá Vương Kiếm Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|150000|1|4||
+BrackerSword|1B8469012345607F0000000000000000|Ngọc Bích Kiếm Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|150000|1|4||
+FlameSword|1A8469012345607F0000000000000000|Hỏa Long Kiếm Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|150000|1|4||

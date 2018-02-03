@@ -1,0 +1,6 @@
+Lúc: 02:43:45PM, 23/01/2018. INSERT INTO nbb_use_money (acc, gcoin, gcoin_km, vpoint, date) VALUES ('admin', 0, 0, , '2018-01-23') 
+----------------------------------------------------------------------
+
+Lúc: 02:47:42PM, 23/01/2018. INSERT INTO nbb_use_money (acc, gcoin, gcoin_km, vpoint, date) VALUES ('admin', 0, 0, , '2018-01-23') 
+----------------------------------------------------------------------
+

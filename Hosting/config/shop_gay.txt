@@ -1,0 +1,11 @@
+LegendaryStaff|050751001234563F0050000000000000|Gậy Ma Thuật (Legendary) Full 6 dòng hoàn hảo +0 Luck 12Op|30000|1|4|LegendaryStaff.gif|
+LordScepter|0B8757001234563F0020000000000000|Quyền Trượng Kim Cương (Lord Scepter) Full 6 dòng hoàn hảo +0 Luck 12Op|30000|1|4|LordScepter.gif|
+BlackRoseStaff|12876A001234563F0050000000000000|Khuyển Xích Quỷ (BlackRose) Full 6 dòng hoàn hảo +0 Luck 12Op|30000|1|4||
+
+ViperStaff|0C0473012345607F0050000000000000|Gậy Thần Ma Full 6 dòng hoàn hảo +0 Luck 12Op|100000|1|4||
+AuraStaff|138473012345607F0050000000000000|Gậy Bùng Nổ Full 6 dòng hoàn hảo +0 Luck 12Op|100000|1|4||
+ConpakScepter|0E846E012345607F0020000000000000|Quyền Trượng Thái Dương Full 6 dòng hoàn hảo +0 Luck 12Op|100000|1|4||
+
+ImperialStaff|1F04C5012345607F0050000000000000|Gậy Quỷ Vương Dương Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|150000|1|4||
+DeadlyStaff|1E046A012345607F0050000000000000|Gậy Giác Đấu Dương Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|150000|1|4||
+AbsoluteScepter|118469012345607F0020000000000000|Lôi Phong Trượng Dương Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|150000|1|4||

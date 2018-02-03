@@ -1,0 +1,4 @@
+GuardianShield|148442012345607F0060000000000000|Khiên Quỷ Vương Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|100000|1|4||
+FrostShield|130442012345607F0060000000000000|Khiên Băng Tinh Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|100000|1|4||
+SalamanderShield|128442012345607F0060000000000000|Khiên Giác Đấu Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|100000|1|4||
+CrimsonGloryShield|118442012345607F0060000000000000|Khiên Vinh Quang Full 6 dòng hoàn hảo + 5 dòng Socket +0 Luck 12Op|100000|1|4||

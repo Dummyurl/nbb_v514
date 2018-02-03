@@ -1,0 +1,14 @@
+PhoenixPants|11075F012345673F0090000000000000|Quần Phượng Hoàng Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DarkPhoenixPants.gif|
+HolySpritPants|130759012345673F0090000000000000|Quần Giai Nhân Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DivinePants.gif|
+GrandSoulPants|120752001234563F0090000000000000|Quần Triệu Hồn Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|GrandSoulPants.gif|
+ThunderPants|140761001234563F0090000000000000|Quần Lôi Phong Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|ThunderHawkPants.gif|
+DarkSteelPants|1B0755001234563F0090000000000000|Quần Hắc Vương Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2|DarkSteelPants.gif|
+AuraPants|2B0759001234563F0090000000000000|Quần Thạch Anh Full 6 dòng hoàn hảo +0 Luck 12Op|20000|2|2||
+
+DragonPants|010453001234567F0090000000000000|Quần Hỏa Long Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|DragonPants.gif|
+GuardianPants|0E04C0001234567F0090000000000000|Quần Kim Ngân Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|GuardianPants.gif|
+LegendaryPants|030490001234567F0090000000000000|Quần Huyền Thoại Full 6 dòng hoàn hảo +0 Luck 16Op|15000|2|2|LegendaryPants.gif|
+UnicornPants|0F045F001234567F0090000000000000|Quần Phong Vũ Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|UnicornPants.gif|
+AdamantinePants|1A0447001234567F0090000000000000|Quần Huyền Thiết Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AdamantinePants.gif|
+AncientPants|290445001234567F0090000000000000|Quần Cổ Phong Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2|AncientPants.gif|
+SacredPants|3B0443001234567F0090000000000000|Quần Sacred Full 6 dòng hoàn hảo +0 Luck 12Op|15000|2|2||

@@ -1,0 +1,2 @@
+- Sua Lien ket tren giao dien : templates/temp_config.php
+- Sua Yahoo ho tro : templates/box_supportym.tpl

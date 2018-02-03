@@ -1,0 +1,37 @@
+<?php
+$event_epitem_name	= 'Truyền Nhân Goblin';
+$event_epitem_on	= 1;
+$event_epitem_begin	= '2013-03-11';
+$event_epitem_end	= '2013-03-31';
+$event_epitem_exlmin_begin	= 1;
+$event_epitem_exlmax_begin	= 2;
+$event_epitem_lvlmin_begin	= 0;
+$event_epitem_lvlmax_begin	= 9;
+$event_epitem_exlmin_end	= 1;
+$event_epitem_exlmax_end	= 2;
+$event_epitem_lvlmin_end	= 13;
+$event_epitem_lvlmax_end	= 15;
+$event_bongda_name	= 'Dự đoán bóng đá';
+$event_bongda_on	= 0;
+$event_bongda_giai1	= 30000;
+$event_bongda_giai2	= 40000;
+$event_bongda_giai3	= 50000;
+$event1_on	= 1;
+$event1_name	= 'Điểm Vàng May Mắn';
+$event_santa_ticket	= 0;
+$event_santa_ticket_name	= 'Vé làng Santa';
+$event_toprs_on	= 1;
+$event_toprs_name	= 'Chiến Thần MU';
+$event_toprs_begin	= '2013-03-18';
+$event_toprs_end	= '2013-03-31';
+$event_toppoint_on	= 1;
+$event_toppoint_name	= 'Thần Tài';
+$event_toppoint_begin	= '2013-03-11';
+$event_toppoint_end	= '2013-03-31';
+$event_topcard_on	= 1;
+$event_topcard_name	= 'Phú Hộ';
+$event_topcard_begin	= '2013-03-11';
+$event_topcard_end	= '2013-03-31';
+$hotroitem_on	= 0;
+$hotroitem_name	= '';
+?>

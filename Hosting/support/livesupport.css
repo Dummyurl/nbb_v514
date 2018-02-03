@@ -1,0 +1,105 @@
+.livesupport {
+    height: 350px;
+    width: 168px;
+    z-index: 999;
+}
+.topsp
+{
+	  background: url("panel_top.png") repeat scroll 0 0 transparent !important;
+    height: 30px;
+}
+.sup_content
+{
+	background: url("panel_main.png") repeat scroll 0 0 transparent !important;
+    padding: 0 12px;
+    width: 144px;
+	text-align: center;
+}
+
+.sup_content li{
+	list-style: none;
+	text-align: justify;	
+}
+
+.sup_ft
+{
+	background: url("panel_foot.png") repeat scroll 0 0 transparent !important;
+    height: 12px;
+}
+.usergroup
+{
+	background: none repeat scroll 0 0 #E1E1E1;
+    color: #1E8FBB;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 0;
+    text-indent: 23px;
+}
+
+.nick_sp a {
+    color: #76B143;
+	text-decoration: none;
+}
+.nick_sp a:hover {
+	text-decoration: underline;
+}
+
+.user {
+    background-color: #FFFFFF;
+    margin: 0;
+    overflow: hidden;
+    padding: 2px 0 6px;
+    width: 144px;
+}
+.nick_sp
+{
+	color:#06F;
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.icon_sp
+{
+    left: 15px;
+    margin-left: -4px;
+    position: absolute;
+    top: 9px;
+}
+.hide_sp
+{
+	margin-left: 134px;
+}
+.hide_sp img {
+    margin-top: 9px;
+    margin-right: 10px;
+}
+#closeDiv
+{
+    height: 10px;
+    margin-left: 4px;
+    width: 60px;
+	display:none;
+}
+
+.messageEd {
+    height: 100px;
+    margin-top: 5px;
+    padding: 3px;
+    width: 363px;
+}
+#send {
+    width:51px;
+}
+.imgClose
+{
+	background: url("panel_open_bg.png") repeat scroll 0 0 transparent !important;
+    height: 60px;
+    width: 60px;
+}
+.imgClose img
+{
+	margin-left: -121px;
+    margin-top: 11px;
+}

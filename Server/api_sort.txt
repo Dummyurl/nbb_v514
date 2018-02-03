@@ -1,0 +1,1 @@
+http://localhost/%5bmysite%5d/NWebMU/NWebMUv5/ApiLicense
