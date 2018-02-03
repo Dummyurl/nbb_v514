@@ -50,15 +50,18 @@ $font_thieu_begin = "<font color='red'><b>";
 $font_thieu_end = "</b></font>";
 $font_du_begin = "<font color='green'><b>";
 $font_du_end = "</b></font>";
+$accept = 1;
 
+$online = "$font_du_begin Đã thoát $font_du_end";
 
-$online = $_SESSION['nv_online'];
-if ($online == 1 || $chenhlech_gcoin < 0) {
+if($_SESSION['nv_online'] == 1) {
+    $online = "$font_thieu_begin Chưa thoát $font_thieu_end";
     $accept = 0;
 }
 
 if ($chenhlech_gcoin < 0) {
-    $notice_gcoin = "$font_thieu_begin Thiếu " . ABS($chenhlech_gcoin) . " Vpoint $font_thieu_end";
+    $notice_gcoin = "$font_thieu_begin Thiếu " . ABS($chenhlech_gcoin) . " Gcoin $font_thieu_end";
+    $accept = 0;
 } else {
     $notice_gcoin = "$font_du_begin Đủ Gcoin $font_du_end";
 }

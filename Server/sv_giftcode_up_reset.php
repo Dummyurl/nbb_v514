@@ -1,5 +1,8 @@
 <?php
 include_once('config/config_giftcode_up_reset.php');
+include_once("security.php");
+include_once("config.php");
+include_once("function.php");
 
 $login = $_POST['login'];
 $name = $_POST['name'];
