@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c098864-a965-43cd-9cfb-71c1a1e88be5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hosting/modules/event/giftcode_history.php" afterPath="$PROJECT_DIR$/Hosting/modules/event/giftcode_history.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Server/sv_giftcode_change.php" afterPath="$PROJECT_DIR$/Server/sv_giftcode_change.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,24 +133,25 @@
       <file leaf-file-name="sv_giftcode_change.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server/sv_giftcode_change.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="432" column="25" lean-forward="true" selection-start-line="432" selection-start-column="25" selection-end-line="432" selection-end-column="25" />
+            <state relative-caret-position="290">
+              <caret line="422" column="132" lean-forward="false" selection-start-line="422" selection-start-column="132" selection-end-line="422" selection-end-column="132" />
               <folding>
                 <element signature="e#3209#4765#0#PHP" expanded="false" />
                 <element signature="e#4789#6347#0#PHP" expanded="false" />
                 <element signature="e#6372#7933#0#PHP" expanded="false" />
                 <element signature="e#7956#9517#0#PHP" expanded="false" />
-                <marker date="1517681631275" expanded="true" signature="1592:1687" ph="SELECT TOP 1... GiftCode" />
-                <marker date="1517681631275" expanded="true" signature="2512:2581" ph="SELECT CAST(... warehouse" />
-                <marker date="1517681631275" expanded="true" signature="11078:11124" ph="SELECT Class... Character" />
-                <marker date="1517681631275" expanded="true" signature="12972:13048" ph="UPDATE Chara... " />
-                <marker date="1517681631275" expanded="true" signature="12972:13067" ph="UPDATE Chara... " />
-                <marker date="1517681631275" expanded="true" signature="13210:13280" ph="SELECT gcoin... MEMB_INFO" />
-                <marker date="1517681631275" expanded="true" signature="13807:13976" ph="INSERT INTO Log_TienTe... " />
-                <marker date="1517681631275" expanded="true" signature="16573:16641" ph="UPDATE wareh... " />
-                <marker date="1517681631275" expanded="true" signature="16822:16957" ph="UPDATE GiftC... " />
-                <marker date="1517681631275" expanded="true" signature="17161:17231" ph="SELECT gcoin... MEMB_INFO" />
-                <marker date="1517681631275" expanded="true" signature="17802:17971" ph="INSERT INTO Log_TienTe... " />
+                <marker date="1517681743237" expanded="true" signature="1592:1687" ph="SELECT TOP 1... GiftCode" />
+                <marker date="1517681743237" expanded="true" signature="2512:2581" ph="SELECT CAST(... warehouse" />
+                <marker date="1517681743237" expanded="true" signature="11078:11124" ph="SELECT Class... Character" />
+                <marker date="1517681743237" expanded="true" signature="12972:13048" ph="UPDATE Chara... " />
+                <marker date="1517681743237" expanded="true" signature="12972:13067" ph="UPDATE Chara... " />
+                <marker date="1517681743237" expanded="true" signature="13195:13330" ph="UPDATE GiftC... " />
+                <marker date="1517681743237" expanded="true" signature="13544:13614" ph="SELECT gcoin... MEMB_INFO" />
+                <marker date="1517681743237" expanded="true" signature="14141:14310" ph="INSERT INTO Log_TienTe... " />
+                <marker date="1517681743237" expanded="true" signature="16907:16975" ph="UPDATE wareh... " />
+                <marker date="1517681743237" expanded="true" signature="17156:17291" ph="UPDATE GiftC... " />
+                <marker date="1517681743237" expanded="true" signature="17495:17565" ph="SELECT gcoin... MEMB_INFO" />
+                <marker date="1517681743237" expanded="true" signature="18136:18305" ph="INSERT INTO Log_TienTe... " />
               </folding>
             </state>
           </provider>
@@ -281,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517656757139</updated>
-      <workItem from="1517656760169" duration="11795000" />
+      <workItem from="1517656760169" duration="11907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11795000" />
+    <option name="totallyTimeSpent" value="11907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -559,24 +559,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/sv_giftcode_change.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="432" column="25" lean-forward="true" selection-start-line="432" selection-start-column="25" selection-end-line="432" selection-end-column="25" />
+        <state relative-caret-position="290">
+          <caret line="422" column="132" lean-forward="false" selection-start-line="422" selection-start-column="132" selection-end-line="422" selection-end-column="132" />
           <folding>
             <element signature="e#3209#4765#0#PHP" expanded="false" />
             <element signature="e#4789#6347#0#PHP" expanded="false" />
             <element signature="e#6372#7933#0#PHP" expanded="false" />
             <element signature="e#7956#9517#0#PHP" expanded="false" />
-            <marker date="1517681631275" expanded="true" signature="1592:1687" ph="SELECT TOP 1... GiftCode" />
-            <marker date="1517681631275" expanded="true" signature="2512:2581" ph="SELECT CAST(... warehouse" />
-            <marker date="1517681631275" expanded="true" signature="11078:11124" ph="SELECT Class... Character" />
-            <marker date="1517681631275" expanded="true" signature="12972:13048" ph="UPDATE Chara... " />
-            <marker date="1517681631275" expanded="true" signature="12972:13067" ph="UPDATE Chara... " />
-            <marker date="1517681631275" expanded="true" signature="13210:13280" ph="SELECT gcoin... MEMB_INFO" />
-            <marker date="1517681631275" expanded="true" signature="13807:13976" ph="INSERT INTO Log_TienTe... " />
-            <marker date="1517681631275" expanded="true" signature="16573:16641" ph="UPDATE wareh... " />
-            <marker date="1517681631275" expanded="true" signature="16822:16957" ph="UPDATE GiftC... " />
-            <marker date="1517681631275" expanded="true" signature="17161:17231" ph="SELECT gcoin... MEMB_INFO" />
-            <marker date="1517681631275" expanded="true" signature="17802:17971" ph="INSERT INTO Log_TienTe... " />
+            <marker date="1517681743237" expanded="true" signature="1592:1687" ph="SELECT TOP 1... GiftCode" />
+            <marker date="1517681743237" expanded="true" signature="2512:2581" ph="SELECT CAST(... warehouse" />
+            <marker date="1517681743237" expanded="true" signature="11078:11124" ph="SELECT Class... Character" />
+            <marker date="1517681743237" expanded="true" signature="12972:13048" ph="UPDATE Chara... " />
+            <marker date="1517681743237" expanded="true" signature="12972:13067" ph="UPDATE Chara... " />
+            <marker date="1517681743237" expanded="true" signature="13195:13330" ph="UPDATE GiftC... " />
+            <marker date="1517681743237" expanded="true" signature="13544:13614" ph="SELECT gcoin... MEMB_INFO" />
+            <marker date="1517681743237" expanded="true" signature="14141:14310" ph="INSERT INTO Log_TienTe... " />
+            <marker date="1517681743237" expanded="true" signature="16907:16975" ph="UPDATE wareh... " />
+            <marker date="1517681743237" expanded="true" signature="17156:17291" ph="UPDATE GiftC... " />
+            <marker date="1517681743237" expanded="true" signature="17495:17565" ph="SELECT gcoin... MEMB_INFO" />
+            <marker date="1517681743237" expanded="true" signature="18136:18305" ph="INSERT INTO Log_TienTe... " />
           </folding>
         </state>
       </provider>

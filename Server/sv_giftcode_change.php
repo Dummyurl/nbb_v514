@@ -420,6 +420,10 @@ switch ($giftcode_type) {
         $msquery_update_resets = "UPDATE Character SET [Resets] = $gift_reset_up_to WHERE AccountID = '$login' and name = '$name'";
         $db->Execute($msquery_update_resets) or die("Lỗi Query: $msquery_update_resets");
 
+        $giftcode_update_query = "UPDATE GiftCode SET name='$name', acc='$login', status=2, gift_timeuse='$timestamp' WHERE gift_code='$gift_code' AND status=1 AND type=$giftcode_type";
+        $giftcode_update_result = $db->Execute($giftcode_update_query);
+        check_queryerror($giftcode_update_query, $giftcode_update_result);
+
         //Ghi vào Log
         $info_log_query = "SELECT gcoin, gcoin_km, vpoint FROM MEMB_INFO WHERE memb___id='$login'";
         $info_log_result = $db->Execute($info_log_query);
