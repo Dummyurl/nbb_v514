@@ -7,4 +7,5 @@
  */
 $giftcode_up_reset_use	= '1';
 $gift_reset_up_to	= '50';
+$giftcode_up_reset_gcoin = 50000;
 ?>
