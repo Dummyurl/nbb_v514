@@ -12,7 +12,7 @@
 
     <blockquote><p align="center">
             - Sau khi đăng kí nhận Giftcode. Vào mục lịch sử Giftcode để lấy mã.<br/>
-            - Mỗi tài khoản chỉ được nhận duy nhất 1 lần cho 1 nhân vật.
+            - Mỗi tài khoản chỉ được nhận duy nhất 1 lần cho 1 nhân vật.<br/>
             - Chi phí nhận Giftcode: <?php echo number_format($giftcode_up_reset_gcoin, 0, ',', '.'); ?> Gcoin
         </p></blockquote>
 

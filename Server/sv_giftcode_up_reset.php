@@ -34,6 +34,9 @@ if ($passtransfer == $transfercode) {
         exit();
     }
 
+    $msquery_update_gcoin = "UPDATE MEMB_INFO SET [gcoin] = '$kt_gcoin' WHERE memb___id = '$login'";
+    $db->Execute($msquery_update_gcoin) or die("Lỗi Query: $msquery_update_gcoin");
+
     $check_use_giftcode_query = "SELECT status, gift_code FROM GiftCode WHERE acc='$login' AND type=20";
     $check_use_giftcode_result = $db->Execute($check_use_giftcode_query);
     $check_use_giftcode = $check_use_giftcode_result->numrows();
@@ -68,8 +71,28 @@ if ($passtransfer == $transfercode) {
 
     $giftcode_insert_query = "INSERT INTO GiftCode (gift_code, acc, name, type, gift_time, ngay, status) VALUES ('$giftcode', '$login', '$name', 20, $timestamp, '" . date("Y-m-d", $timestamp) . "', 1)";
     $giftcode_insert_result = $db->Execute($giftcode_insert_query);
-    $content = "Ma GiftCode Tan Thu cua tai khoan $login : $giftcode";
-    echo "OK<nbb>Nhân vật $name đã xóa thành công. Bạn vui lòng đăng nhập lại để cập nhật thông tin nhân vật.";
+    echo "OK<nbb>Nhân vật $name đã đăng kí nhận Giftcode Up Reset thành công. Mã Giftcode của bạn là: <strong>$giftcode</strong>.";
+
+    _use_money($login, $giftcode_up_reset_gcoin, 0, 0);
+
+//Ghi vào Log
+    $info_log_query = "SELECT gcoin, gcoin_km, vpoint FROM MEMB_INFO WHERE memb___id='$login'";
+    $info_log_result = $db->Execute($info_log_query);
+    check_queryerror($info_log_query, $info_log_result);
+    $info_log = $info_log_result->fetchrow();
+
+    $log_acc = "$login";
+    $log_gcoin = $info_log[0];
+    $log_gcoin_km = $info_log[1];
+    $log_vpoint = $info_log[2];
+    $log_price = "- $giftcode_up_reset_gcoin Gcoin";
+    $log_Des = "$name Đăng kí nhận Giftcode Up Reset";
+    $log_time = $timestamp;
+
+    $insert_log_query = "INSERT INTO Log_TienTe (acc, gcoin, gcoin_km, vpoint, price, Des, time) VALUES ('$log_acc', $log_gcoin, $log_gcoin_km, $log_vpoint, '$log_price', N'$log_Des', $log_time)";
+    $insert_log_result = $db->execute($insert_log_query);
+    check_queryerror($insert_log_query, $insert_log_result);
+//End Ghi vào Log
 }
 ?>
 
