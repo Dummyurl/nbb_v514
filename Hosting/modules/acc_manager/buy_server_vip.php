@@ -1,5 +1,5 @@
 <?php
-
+include('config/config_buy_server_vip.php');
 if (!defined('NetNWEB')) die("Ban khong co quyen truy cap he thong");
 
 if (isset($_POST['action'])) {
