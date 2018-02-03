@@ -40,7 +40,6 @@ if (isset($_POST['action'])) {
                     $notice = $info[1];
 
                     $_SESSION['acc_gcoin'] -= $buy_server_vip_price[$vip_choose];
-                    session_destroy();
                 }
                 else $notice = $reponse;
             }
