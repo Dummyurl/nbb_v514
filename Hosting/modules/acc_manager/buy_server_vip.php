@@ -13,7 +13,7 @@ if (isset($_POST['action'])) {
             $notice = "Tốc độ xử lý của bạn quá nhanh, vui lòng chờ vài giây rồi tiếp tục thực hiện.";
         } elseif (preg_match("/[^a-zA-Z0-9_$]/", $pass2)) {
             $notice = "<font color='red'>Dữ liệu lỗi - Mật khẩu Web cấp 2 chỉ được sử dụng kí tự a-z, A-Z, số (1-9) và dấu _.</font><br>";
-        } elseif (preg_match("/[^1-9$]/", $vip_choose)) {
+        } elseif (preg_match("/[^0-9$]/", $vip_choose)) {
             $notice = "<font color='red'>Dữ liệu lỗi - Chưa chọn gói VIP.</font>";
         } else {
 
@@ -35,7 +35,14 @@ if (isset($_POST['action'])) {
                 $notice = "<font size='3' color='red'>Tài khoản đã được đăng nhập trên trình duyệt khác hoặc máy tính khác.</font>";
                 session_destroy();
             } else {
-                $notice = $reponse;
+                $info = explode('<nbb>',$reponse);
+                if ($info[0] == 'OK') {
+                    $notice = $info[1];
+
+                    $_SESSION['acc_gcoin'] -= $buy_server_vip_price[$vip_choose];
+                    session_destroy();
+                }
+                else $notice = $reponse;
             }
         }
     }

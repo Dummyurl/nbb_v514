@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c098864-a965-43cd-9cfb-71c1a1e88be5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Server/config/config_buy_server_vip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Server/sv_acc/sv_buy_server_vip.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php" afterPath="$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,21 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buy_server_vip.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="buy_server_vip.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="566">
+              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sv_buy_server_vip.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sv_buy_server_vip.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/sv_acc/sv_buy_server_vip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="32" column="93" lean-forward="false" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+            <state relative-caret-position="323">
+              <caret line="19" column="59" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
               <folding>
                 <marker date="1517687020733" expanded="true" signature="682:734" ph="Select gcoin... MEMB_INFO" />
                 <marker date="1517687020733" expanded="true" signature="999:1068" ph="UPDATE MEMB_... " />
@@ -65,8 +62,8 @@
       <file leaf-file-name="buy_server_vip.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="362">
+              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -86,6 +83,16 @@
                 <marker date="1517678642819" expanded="true" signature="2004:2074" ph="SELECT gcoin... MEMB_INFO" />
                 <marker date="1517678642819" expanded="true" signature="2496:2665" ph="INSERT INTO Log_TienTe... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deletechar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hosting/modules/char_manager/deletechar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="54" column="40" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="54" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,9 +132,9 @@
         <option value="$PROJECT_DIR$/Hosting/config/config_buy_server_vip.php" />
         <option value="$PROJECT_DIR$/Hosting/templates/acc_manager.tpl" />
         <option value="$PROJECT_DIR$/Hosting/modules/acc_manager.php" />
+        <option value="$PROJECT_DIR$/Server/sv_acc/sv_buy_server_vip.php" />
         <option value="$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.tpl" />
         <option value="$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php" />
-        <option value="$PROJECT_DIR$/Server/sv_acc/sv_buy_server_vip.php" />
       </list>
     </option>
   </component>
@@ -174,6 +181,19 @@
               <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
               <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Hosting" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Hosting" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Hosting" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="char_manager" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
@@ -245,12 +265,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517656757139</updated>
-      <workItem from="1517656760169" duration="17118000" />
+      <workItem from="1517656760169" duration="17400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17118000" />
+    <option name="totallyTimeSpent" value="17400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,14 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/modules/char_manager/deletechar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -727,10 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php">
+    <entry file="file://$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="362">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -739,22 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/config/config_buy_server_vip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -775,10 +771,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/modules/char_manager/deletechar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="54" column="40" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="54" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/config/config_buy_server_vip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Server/sv_acc/sv_buy_server_vip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="32" column="93" lean-forward="false" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+        <state relative-caret-position="323">
+          <caret line="19" column="59" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
           <folding>
             <marker date="1517687020733" expanded="true" signature="682:734" ph="Select gcoin... MEMB_INFO" />
             <marker date="1517687020733" expanded="true" signature="999:1068" ph="UPDATE MEMB_... " />
@@ -786,6 +798,14 @@
             <marker date="1517687020733" expanded="true" signature="1492:1562" ph="SELECT gcoin... MEMB_INFO" />
             <marker date="1517687020733" expanded="true" signature="1992:2161" ph="INSERT INTO Log_TienTe... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
