@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c098864-a965-43cd-9cfb-71c1a1e88be5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hosting/modules/event/giftcode_up_reset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Server/sv_giftcode_up_reset.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Hosting/config/config_gifcode_up_reset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Hosting/modules/event/gifcode_up_reset.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hosting/modules/event/giftcode_up_reset.php" afterPath="$PROJECT_DIR$/Hosting/modules/event/giftcode_up_reset.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hosting/templates/event/giftcode_up_reset.tpl" afterPath="$PROJECT_DIR$/Hosting/templates/event/giftcode_up_reset.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Server/sv_char/sv_char_delete.php" afterPath="$PROJECT_DIR$/Server/sv_char/sv_char_delete.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="event.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="event.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hosting/templates/event.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="77" column="44" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="44" />
+            <state relative-caret-position="455">
+              <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -32,8 +27,18 @@
       <file leaf-file-name="deletechar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hosting/modules/char_manager/deletechar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="2" />
+            <state relative-caret-position="617">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="66" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deletechar.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hosting/templates/char_manager/deletechar.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -61,20 +66,20 @@
       <file leaf-file-name="giftcode_up_reset.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hosting/modules/event/giftcode_up_reset.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="447">
+              <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="giftcode_up_reset.tpl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="giftcode_up_reset.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hosting/templates/event/giftcode_up_reset.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="67" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="67" />
+            <state relative-caret-position="748">
+              <caret line="44" column="100" lean-forward="true" selection-start-line="44" selection-start-column="100" selection-end-line="44" selection-end-column="100" />
               <folding>
-                <element signature="e#1835#1841#1#HTML" expanded="true" />
+                <element signature="e#1785#1791#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,10 +161,10 @@
         <option value="$PROJECT_DIR$/Server/sv_char/sv_char_delete.php" />
         <option value="$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php" />
         <option value="$PROJECT_DIR$/Server/sv_gifcode_up_reset.php" />
-        <option value="$PROJECT_DIR$/Hosting/templates/event/giftcode_up_reset.tpl" />
         <option value="$PROJECT_DIR$/Hosting/modules/event/gifcode_up_reset.php" />
         <option value="$PROJECT_DIR$/Hosting/modules/event/giftcode_change.php" />
         <option value="$PROJECT_DIR$/Hosting/modules/event/giftcode_up_reset.php" />
+        <option value="$PROJECT_DIR$/Hosting/templates/event/giftcode_up_reset.tpl" />
       </list>
     </option>
   </component>
@@ -209,14 +214,7 @@
               <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
               <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Hosting" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Hosting" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="event" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
@@ -261,12 +259,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517656757139</updated>
-      <workItem from="1517656760169" duration="9707000" />
+      <workItem from="1517656760169" duration="10281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9707000" />
+    <option name="totallyTimeSpent" value="10281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -443,14 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/templates/char_manager/deletechar.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/sv_char/sv_char_delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -467,10 +457,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/modules/char_manager/deletechar.php">
+    <entry file="file://$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="2" />
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/modules/event/giftcode_change.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="62" column="44" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/templates/event.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/templates/char_manager/deletechar.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -492,45 +506,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php">
+    <entry file="file://$PROJECT_DIR$/Hosting/modules/char_manager/deletechar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="617">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="66" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/modules/event/giftcode_change.php">
+    <entry file="file://$PROJECT_DIR$/Hosting/modules/event/giftcode_up_reset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="62" column="44" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        <state relative-caret-position="447">
+          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hosting/templates/event/giftcode_up_reset.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="67" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="67" />
+        <state relative-caret-position="748">
+          <caret line="44" column="100" lean-forward="true" selection-start-line="44" selection-start-column="100" selection-end-line="44" selection-end-column="100" />
           <folding>
-            <element signature="e#1835#1841#1#HTML" expanded="true" />
+            <element signature="e#1785#1791#1#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/modules/event/giftcode_up_reset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/templates/event.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="77" column="44" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>

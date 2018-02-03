@@ -11,15 +11,15 @@
 <div class="pad10">
 
     <blockquote><p align="center">
-            - Sau khi xóa nhân vật trên web. Nhân vật trong game của bạn cũng bị mất hoàn toàn.<br />
-            - Hãy chắc chắn trước khi xóa.<br />
-            - Sau khi xóa nhân vật bạn cần phải đăng nhập lại.<br />
-            - Chi phí xóa nhân vật: <?php echo number_format($deletechar_vpoint, 0, ',', '.'); ?> V.Point
+            - Sau khi đăng kí nhận Giftcode. Vào mục lịch sử Giftcode để lấy mã.<br/>
+            - Mỗi tài khoản chỉ được nhận duy nhất 1 lần cho 1 nhân vật.
+            - Chi phí nhận Giftcode: <?php echo number_format($giftcode_up_reset_gcoin, 0, ',', '.'); ?> Gcoin
         </p></blockquote>
 
-    <form id="giftcode_up_reset" name="giftcode_up_reset" method="post" action="index.php?mod=event&act=giftcode_up_reset">
-        <input type="hidden" name="action" value="giftcode_up_reset" />
-        <input type="hidden" name="character" value="<?php echo $_SESSION['mu_nvchon']; ?>" />
+    <form id="giftcode_up_reset" name="giftcode_up_reset" method="post"
+          action="index.php?mod=event&act=giftcode_up_reset">
+        <input type="hidden" name="action" value="giftcode_up_reset"/>
+        <input type="hidden" name="character" value="<?php echo $_SESSION['mu_nvchon']; ?>"/>
         <table width="100%" border="0" cellpadding="3" cellspacing="1">
             <tr>
                 <td align="right" width="40%">Nhân vật nhận code:</td>
@@ -30,7 +30,7 @@
             </tr>
             <tr>
                 <td align="right">Gcoin:</td>
-                <td><?php echo $notice_vpoint; ?></td>
+                <td><?php echo $notice_gcoin; ?></td>
             </tr>
             <tr>
                 <td align="right">Thoát Game:</td>
@@ -38,11 +38,13 @@
             </tr>
             <tr>
                 <td align="right">Mật khẩu Cấp 2</td>
-                <td><input type="password" name="pass2" size="20" /></td>
+                <td><input type="password" name="pass2" size="20"/></td>
             </tr>
             <tr>
                 <td align="right">&nbsp;</td>
-                <td><input type="submit" name="Submit" value="Nhận Code" <?php if($accept=='0') { ?> disabled="disabled" <?php } ?> /></td>
+                <td><input type="submit" name="Submit" value="Nhận Code" <?php if($accept=='0') { ?>
+                    disabled="disabled" <?php } ?> />
+                </td>
             </tr>
         </table>
     </form>
