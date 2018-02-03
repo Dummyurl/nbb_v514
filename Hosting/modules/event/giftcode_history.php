@@ -104,6 +104,10 @@ if ( !isset($_SESSION['mu_username']) ) {
                 case 9:
                     $giftcode_history_arr['giftcode'][$key]['type_name'] = "Giftcode Tân Thủ";
             	break;
+
+                case 20:
+                    $giftcode_history_arr['giftcode'][$key]['type_name'] = "Giftcode Up Reset";
+                    break;
             
             	default : $giftcode_history_arr['giftcode'][$key]['type_name'] = "Chưa định nghĩa";
             }

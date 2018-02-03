@@ -7,7 +7,7 @@
  * @HotLine		094 92 92 290
  * @Version		v5.12.0722
  * @Release		22/07/2012
- 
+
  * WebSite hoan toan duoc thiet ke boi NetBanBe.
  * Vi vay, hay ton trong ban quyen tri tue cua NetBanBe
  * Hay ton trong cong suc, tri oc NetBanBe da bo ra de thiet ke nen NWebMU
@@ -16,7 +16,7 @@
  * Cac ban hay su dung NWebMU duoc cung cap boi NetBanBe de NetBanBe co dieu kien phat trien them nhieu tinh nang hay hon, tot hon.
  * Cam on nhieu!
  */
- 
+
 	include_once("security.php");
 include_once("config.php");
 
@@ -33,7 +33,7 @@ if ($passtransfer == $transfercode) {
 
 $string_login = $_POST['string_login'];
 checklogin($login,$string_login);
-	
+
 if(check_nv($login, $name) == 0) {
     echo "Nhân vật <b>{$name}</b> không nằm trong tài khoản <b>{$login}</b>. Vui lòng kiểm tra lại."; exit();
 }
@@ -57,7 +57,7 @@ if($giftcode_check == 0) {
     $giftcode_name = $giftcode__check_fetch[1];
     $giftcode_type = $giftcode__check_fetch[2];
     $giftcode_acc = $giftcode__check_fetch[3];
-    
+
     if($giftcode_status == 0) {
         echo "Mã GiftCode ". $gift_code ." chưa được kích hoạt."; exit();
     }
@@ -85,7 +85,7 @@ $warehouse2 = substr($warehouse,120*32);
 $trade	= 1;
 $sell	= 1;
 $repair	= 1;
-        
+
 switch ($giftcode_type) {
 	// GiftCode Reset
     case 1:
@@ -93,19 +93,19 @@ switch ($giftcode_type) {
             echo "GiftCode $gift_code không phải của nhân vật $name . Không thể nhận thưởng."; exit();
         }
         include_once("config/config_giftcode_rs.php");
-        switch ($giftcode_rs_use){ 
+        switch ($giftcode_rs_use){
         	case 1:
                 $file_giftcode = 'config/giftcode_random_type1.txt';
         	break;
-        
+
         	case 2:
                 $file_giftcode = 'config/giftcode_random_type2.txt';
         	break;
-        
+
         	case 3:
                 $file_giftcode = 'config/giftcode_random_type3.txt';
         	break;
-        
+
         	default :  echo "Chức năng GiftCode Reset không sử dụng"; exit();
         }
 
@@ -135,28 +135,28 @@ switch ($giftcode_type) {
     		}
     	} else $fopen_host = fopen($filename, "w");
     	fclose($fopen_host);
-        
+
 	break;
-    
+
     // GiftCode Week
 	case 2:
         if($giftcode_acc != $login) {
             echo "Giftcode $giftcode không phải của tài khoản $login. Không thể nhận thưởng"; exit();
         }
         include_once("config/config_giftcode_week.php");
-        switch ($giftcode_week_use){ 
+        switch ($giftcode_week_use){
         	case 1:
                 $file_giftcode = 'config/giftcode_random_type1.txt';
         	break;
-        
+
         	case 2:
                 $file_giftcode = 'config/giftcode_random_type2.txt';
         	break;
-        
+
         	case 3:
                 $file_giftcode = 'config/giftcode_random_type3.txt';
         	break;
-        
+
         	default :  echo "Chức năng GiftCode tuần không sử dụng"; exit();
         }
 
@@ -186,7 +186,7 @@ switch ($giftcode_type) {
     		}
     	} else $fopen_host = fopen($filename, "w");
     	fclose($fopen_host);
-        
+
 	break;
 
 	// GiftCode Month
@@ -195,19 +195,19 @@ switch ($giftcode_type) {
             echo "Giftcode $giftcode không phải của tài khoản $login. Không thể nhận thưởng"; exit();
         }
         include_once("config/config_giftcode_month.php");
-        switch ($giftcode_month_use){ 
+        switch ($giftcode_month_use){
         	case 1:
                 $file_giftcode = 'config/giftcode_random_type1.txt';
         	break;
-        
+
         	case 2:
                 $file_giftcode = 'config/giftcode_random_type2.txt';
         	break;
-        
+
         	case 3:
                 $file_giftcode = 'config/giftcode_random_type3.txt';
         	break;
-        
+
         	default :  echo "Chức năng GiftCode tháng không sử dụng"; exit();
         }
 
@@ -237,28 +237,28 @@ switch ($giftcode_type) {
     		}
     	} else $fopen_host = fopen($filename, "w");
     	fclose($fopen_host);
-        
+
 	break;
-    
+
     // GiftCode Acc
 	case 4:
         if($giftcode_acc != $login) {
             echo "Giftcode $giftcode không phải của tài khoản $login. Không thể nhận thưởng"; exit();
         }
         include_once("config/config_giftcode_acc.php");
-        switch ($giftcode_acc_use){ 
+        switch ($giftcode_acc_use){
         	case 1:
                 $file_giftcode = 'config/giftcode_random_type1.txt';
         	break;
-        
+
         	case 2:
                 $file_giftcode = 'config/giftcode_random_type2.txt';
         	break;
-        
+
         	case 3:
                 $file_giftcode = 'config/giftcode_random_type3.txt';
         	break;
-        
+
         	default :  echo "Chức năng GiftCode Tài Khoản không sử dụng"; exit();
         }
 
@@ -288,25 +288,25 @@ switch ($giftcode_type) {
     		}
     	} else $fopen_host = fopen($filename, "w");
     	fclose($fopen_host);
-        
+
 	break;
-    
+
     //GiftCode Phat
     case 5:
         include_once("config/config_giftcode_phat.php");
-        switch ($giftcode_phat_use){ 
+        switch ($giftcode_phat_use){
         	case 1:
                 $file_giftcode = 'config/giftcode_random_type1.txt';
         	break;
-        
+
         	case 2:
                 $file_giftcode = 'config/giftcode_random_type2.txt';
         	break;
-        
+
         	case 3:
                 $file_giftcode = 'config/giftcode_random_type3.txt';
         	break;
-        
+
         	default :  echo "Chức năng GiftCode Phát không sử dụng"; exit();
         }
 
@@ -336,9 +336,9 @@ switch ($giftcode_type) {
     		}
     	} else $fopen_host = fopen($filename, "w");
     	fclose($fopen_host);
-        
+
 	break;
-    
+
     // GiftCode Tan thu
     case 9:
         include_once("config/config_giftcode_tanthu.php");
@@ -346,9 +346,9 @@ switch ($giftcode_type) {
         $class_check_result = $db->Execute($class_check_query);
             check_queryerror($class_check_query, $class_check_result);
         $class_check = $class_check_result->FetchRow();
-        
+
         $ClassType =  $class_check[0];
-        switch ($ClassType){ 
+        switch ($ClassType){
         	case 0:
             case 1:
             case 2:
@@ -356,7 +356,7 @@ switch ($giftcode_type) {
                 $GiftCode = $gift_dw;
                 $msg_giftcode = $msg_dw;
         	break;
-        
+
         	case 16:
             case 17:
             case 18:
@@ -364,7 +364,7 @@ switch ($giftcode_type) {
                 $GiftCode = $gift_dk;
                 $msg_giftcode = $msg_dk;
         	break;
-        
+
         	case 32:
             case 33:
             case 34:
@@ -372,21 +372,21 @@ switch ($giftcode_type) {
                 $GiftCode = $gift_elf;
                 $msg_giftcode = $msg_elf;
         	break;
-            
+
             case 48:
             case 49:
             case 50:
                 $GiftCode = $gift_mg;
                 $msg_giftcode = $msg_mg;
         	break;
-            
+
             case 64:
             case 65:
             case 66:
                 $GiftCode = $gift_dl;
                 $msg_giftcode = $msg_dl;
         	break;
-            
+
             case 80:
             case 81:
             case 82:
@@ -394,14 +394,14 @@ switch ($giftcode_type) {
                 $GiftCode = $gift_sum;
                 $msg_giftcode = $msg_sum;
         	break;
-            
+
             case 96:
             case 97:
             case 98:
                 $GiftCode = $gift_rf;
                 $msg_giftcode = $msg_rf;
         	break;
-        
+
         	default :  echo "Lớp nhân vật chưa định nghĩa."; exit();
         }
             $item_read[] = array (
@@ -413,7 +413,35 @@ switch ($giftcode_type) {
         $sell	= 0;
         $repair	= 0;
 	break;
-    
+
+	// GifCode Up Reset
+    case 20:
+        include_once("config/config_giftcode_up_reset.php");
+        $msquery_update_resets = "UPDATE Character SET [Resets] = $gift_reset_up_to WHERE AccountID = '$login' and name = '$name'";
+        $db->Execute($msquery_update_resets) or die("Lỗi Query: $msquery_update_resets");
+
+        //Ghi vào Log
+        $info_log_query = "SELECT gcoin, gcoin_km, vpoint FROM MEMB_INFO WHERE memb___id='$login'";
+        $info_log_result = $db->Execute($info_log_query);
+        check_queryerror($info_log_query, $info_log_result);
+        $info_log = $info_log_result->fetchrow();
+
+        $log_acc = "$login";
+        $log_gcoin = $info_log[0];
+        $log_gcoin_km = $info_log[1];
+        $log_vpoint = $info_log[2];
+        $log_price = "-";
+        $log_Des = "Tài khoản $login đã đổi GiftCode $gift_code cho nhân vật : $name. và tăng Reset lên $gift_reset_up_to lần";
+        $log_time = $timestamp;
+
+        $insert_log_query = "INSERT INTO Log_TienTe (acc, gcoin, gcoin_km, vpoint, price, Des, time) VALUES ('$log_acc', $log_gcoin, $log_gcoin_km, $log_vpoint, '$log_price', N'$log_Des', $log_time)";
+        $insert_log_result = $db->execute($insert_log_query);
+        check_queryerror($insert_log_query, $insert_log_result);
+        //End Ghi vào Log
+
+        echo "Bạn đã đổi thành công GiftCode cho nhân vật <strong>$name</strong>.<br>Nhân vật <strong>$name</strong> vừa tăng Reset thành $gift_reset_up_to lần";
+        exit();
+        break;
 	default : echo "Mã GiftCode không đúng loại."; exit();
 }
 
@@ -423,10 +451,10 @@ $getcontent_url = $url_license . "/api_giftcode_change.php";
 $getcontent_data = array(
     'acclic'    =>  $acclic,
     'key'    =>  $key,
-    
+
     'item_read'    =>  json_encode($item_read),
     'warehouse1'   =>  $warehouse1
-); 
+);
 
 $reponse = _getContent($getcontent_url, $getcontent_data, $getcontent_method, $getcontent_curl);
 
@@ -448,7 +476,7 @@ else {
             echo "Dữ liệu trả về lỗi. Vui lòng liên hệ Admin để FIX";
             $arr_view = "\nDataSend:\n";
             foreach($getcontent_data as $k => $v) {
-                $arr_view .= "\t". $k ."\t=>\t". $v .",\n"; 
+                $arr_view .= "\t". $k ."\t=>\t". $v .",\n";
             }
             writelog("log_api.txt", $arr_view . $reponse);
             exit();
@@ -461,17 +489,17 @@ else {
 }
 $item_gift_arr = json_decode($item_gift, true);
 $msg_giftcode = $gift_des[$item_choise];
-        
+
 $itemgift_count = count($item_gift_arr);
 if($itemgift_count > 0) {
-    
+
     $warehouse1_new = $warehouse1;
     for($i=0; $i<$itemgift_count; $i++) {
         $item = $item_gift_arr[$i]['code'];
-            
+
         $item_seri = substr($item, 6, 8);
         $item_seri_dec = hexdec($item_seri);
-        
+
         if($repair == 0) {
             $item = substr_replace($item, 'FFFFFFFF', 6, 8);
         } elseif($item_seri_dec < 4294967280) {
@@ -481,23 +509,23 @@ if($itemgift_count > 0) {
         $warehouse1_new = substr_replace($warehouse1_new, $item, $item_gift_arr[$i]['vitri']*32, 32);
     }
 kiemtra_online($login);
-    
+
     $warehouse_new = $warehouse1_new . $warehouse2;
-    
+
     $warehouse_update_query = "UPDATE warehouse SET Items=0x$warehouse_new WHERE AccountID='$login'";
     $warehouse_update_result = $db->Execute($warehouse_update_query);
         check_queryerror($warehouse_update_query, $warehouse_update_result);
-    
+
     $giftcode_update_query = "UPDATE GiftCode SET name='$name', acc='$login', status=2, gift_timeuse='$timestamp' WHERE gift_code='$gift_code' AND status=1 AND type=$giftcode_type";
     $giftcode_update_result = $db->Execute($giftcode_update_query);
         check_queryerror($giftcode_update_query, $giftcode_update_result);
-    
+
     //Ghi vào Log
     		$info_log_query = "SELECT gcoin, gcoin_km, vpoint FROM MEMB_INFO WHERE memb___id='$login'";
             $info_log_result = $db->Execute($info_log_query);
                 check_queryerror($info_log_query, $info_log_result);
             $info_log = $info_log_result->fetchrow();
-            
+
             $log_acc = "$login";
             $log_gcoin = $info_log[0];
             $log_gcoin_km = $info_log[1];
@@ -505,14 +533,14 @@ kiemtra_online($login);
             $log_price = "-";
             $log_Des = "Tài khoản $login đã đổi GiftCode $gift_code cho nhân vật : $name. Phần thưởng GiftCode: $msg_giftcode";
             $log_time = $timestamp;
-            
+
             $insert_log_query = "INSERT INTO Log_TienTe (acc, gcoin, gcoin_km, vpoint, price, Des, time) VALUES ('$log_acc', $log_gcoin, $log_gcoin_km, $log_vpoint, '$log_price', N'$log_Des', $log_time)";
             $insert_log_result = $db->execute($insert_log_query);
                 check_queryerror($insert_log_query, $insert_log_result);
     //End Ghi vào Log nhung nhan vat mua Item
-    
+
     echo "Bạn đã đổi thành công GiftCode cho nhân vật <strong>$name</strong>.<br>Phần thưởng GiftCode: $msg_giftcode";
-    
+
 } else {
     echo "Mã GiftCode không đúng định dạng."; exit();
 }
