@@ -64,8 +64,8 @@ if (isset($_POST['action']))
                 'pass2'    =>  $pass2,
                 'string_login'    =>  $_SESSION['checklogin'],
                 'passtransfer'    =>  $passtransfer
-            ); 
-            
+            );
+
             $reponse = _getContent($getcontent_url, $getcontent_data, $getcontent_method, $getcontent_curl);
 
 			if ( empty($reponse) ) $notice = "Server bảo trì.";

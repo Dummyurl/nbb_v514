@@ -76,7 +76,7 @@
 
     <?php
     include('config/config_giftcode_up_reset.php');
-    if ($giftcode_up_reset_use > 0) {
+    if ($giftcode_up_reset_use == 1) {
     ?>
     <a href="#event&act=giftcode_up_reset" rel="ajax" class="cont03">
         <p><img src="images/dot.png" alt="" />GiftCode Up Reset

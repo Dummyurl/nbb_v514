@@ -90,6 +90,11 @@ if ( !isset($_SESSION['mu_username']) ) {
             if ($giftcode_tanthu_use == 1) { include('modules/event/giftcode_tanthu.php'); }
 			else { echo "<center>Event chưa bật</center>"; }
 			break;
+        case 'giftcode_up_reset':
+            include('config/config_giftcode_up_reset.php');
+            if ($giftcode_up_reset_use == 1) { include('modules/event/giftcode_up_reset.php'); }
+            else { echo "<center>Event chưa bật</center>"; }
+            break;
         case 'giftcode_change': 
 			include('config/config_giftcode_rs.php');
             include('config/config_giftcode_week.php');

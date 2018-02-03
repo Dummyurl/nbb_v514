@@ -33,7 +33,8 @@
 
 <link type="text/css" rel="stylesheet" href="images/style.css" />
 <link type="text/css" rel="stylesheet" href="images/simpleblue_style.css">
-	
+
+<script type="text/javascript" src="js/angular.js"></script>
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/tooltip.jquery.js"></script>
 <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
