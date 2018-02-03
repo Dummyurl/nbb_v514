@@ -13,8 +13,8 @@ if (isset($_POST['action'])) {
             $notice = "Tốc độ xử lý của bạn quá nhanh, vui lòng chờ vài giây rồi tiếp tục thực hiện.";
         } elseif (preg_match("/[^a-zA-Z0-9_$]/", $pass2)) {
             $notice = "<font color='red'>Dữ liệu lỗi - Mật khẩu Web cấp 2 chỉ được sử dụng kí tự a-z, A-Z, số (1-9) và dấu _.</font><br>";
-        } elseif (preg_match("/[^1-9$]/", $quest)) {
-            $notice = "<font color='red'>Dữ liệu lỗi - Chưa chọn câu hỏi bí mật.</font>";
+        } elseif (preg_match("/[^1-9$]/", $vip_choose)) {
+            $notice = "<font color='red'>Dữ liệu lỗi - Chưa chọn gói VIP.</font>";
         } else {
 
             $getcontent_url = $server_url . "/sv_acc.php";
