@@ -12,6 +12,11 @@ $passtransfer = $_POST['passtransfer'];
 
 if ($passtransfer == $transfercode) {
 
+    if($giftcode_up_reset_use == 0) {
+        echo "Đã hết hạn đăng kí Code";
+        exit();
+    }
+
     $string_login = $_POST['string_login'];
     checklogin($login, $string_login);
 
@@ -34,9 +39,6 @@ if ($passtransfer == $transfercode) {
         exit();
     }
 
-    $msquery_update_gcoin = "UPDATE MEMB_INFO SET [gcoin] = '$kt_gcoin' WHERE memb___id = '$login'";
-    $db->Execute($msquery_update_gcoin) or die("Lỗi Query: $msquery_update_gcoin");
-
     $check_use_giftcode_query = "SELECT status, gift_code FROM GiftCode WHERE acc='$login' AND type=20";
     $check_use_giftcode_result = $db->Execute($check_use_giftcode_query);
     $check_use_giftcode = $check_use_giftcode_result->numrows();
@@ -50,6 +52,17 @@ if ($passtransfer == $transfercode) {
             exit();
         }
     }
+
+    $check_char_query = "SELECT Resets, Relifes FROM Character WHERE name='$name'";
+    $check_char_result = $db->Execute($check_char_query);
+    $char_info = $check_char_result->FetchRow();
+    if ($char_info[0] >= $gift_reset_up_to && $char_info[1] >= $gift_relife_up_to) {
+        echo "Nhân vật <strong>$name</strong> có số lần Reset và Relife lớn hơn số lần được tặng nên không thể nhận code này.";
+        exit();
+    }
+
+    $msquery_update_gcoin = "UPDATE MEMB_INFO SET [gcoin] = '$kt_gcoin' WHERE memb___id = '$login'";
+    $db->Execute($msquery_update_gcoin) or die("Lỗi Query: $msquery_update_gcoin");
 
     $characters = 'abcdefghijklmnpqrstuvwxyz123456789';
     $random_string_length = 10;

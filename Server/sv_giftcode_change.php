@@ -417,6 +417,15 @@ switch ($giftcode_type) {
 	// GifCode Up Reset
     case 20:
         include_once("config/config_giftcode_up_reset.php");
+
+        $check_char_query = "SELECT Resets, Relifes FROM Character WHERE name='$name'";
+        $check_char_result = $db->Execute($check_char_query);
+        $char_info = $check_char_result->FetchRow();
+        if ($char_info[0] >= $gift_reset_up_to && $char_info[1] >= $gift_relife_up_to) {
+            echo "Nhân vật <strong>$name</strong> có số lần Reset và Relife lớn hơn số lần được tặng nên không thể nhận code này.";
+            exit();
+        }
+
         $msquery_update_resets = "UPDATE Character SET [Resets] = $gift_reset_up_to WHERE AccountID = '$login' and name = '$name'";
         $db->Execute($msquery_update_resets) or die("Lỗi Query: $msquery_update_resets");
 
@@ -443,7 +452,7 @@ switch ($giftcode_type) {
         check_queryerror($insert_log_query, $insert_log_result);
         //End Ghi vào Log
 
-        echo "Bạn đã đổi thành công GiftCode cho nhân vật <strong>$name</strong>.<br>Nhân vật <strong>$name</strong> vừa tăng Reset thành $gift_reset_up_to lần";
+        echo "Bạn đã đổi thành công GiftCode cho nhân vật <strong>$name</strong>.<br>Nhân vật <strong>$name</strong> vừa tăng Reset thành $gift_reset_up_to lần, Tăng Relife thành $gift_relife_up_to lần.";
         exit();
         break;
 	default : echo "Mã GiftCode không đúng loại."; exit();

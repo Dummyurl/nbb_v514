@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c098864-a965-43cd-9cfb-71c1a1e88be5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php" afterPath="$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hosting/config/event_tichluy_thenap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php" afterPath="$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Server/sv_giftcode_change.php" afterPath="$PROJECT_DIR$/Server/sv_giftcode_change.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Server/sv_giftcode_up_reset.php" afterPath="$PROJECT_DIR$/Server/sv_giftcode_up_reset.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,28 +20,129 @@
       <file leaf-file-name="config_buy_server_vip.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hosting/config/config_buy_server_vip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="acc_manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hosting/modules/acc_manager.php">
+      <file leaf-file-name="event_tichluy_thenap.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hosting/config/event_tichluy_thenap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buy_server_vip.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="questdaily.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hosting/modules/questdaily.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sv_char_questdaily.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/sv_char/sv_char_questdaily.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="193" column="54" lean-forward="false" selection-start-line="193" selection-start-column="46" selection-end-line="193" selection-end-column="54" />
+              <folding>
+                <marker date="1384468676000" expanded="true" signature="1544:1597" ph="SELECT nbb_p... MEMB_INFO" />
+                <marker date="1384468676000" expanded="true" signature="2306:2373" ph="UPDATE MEMB_... " />
+                <marker date="1384468676000" expanded="true" signature="2651:2768" ph="UPDATE Chara... " />
+                <marker date="1384468676000" expanded="true" signature="3316:3431" ph="UPDATE Chara... " />
+                <marker date="1384468676000" expanded="true" signature="3983:4102" ph="UPDATE Chara... " />
+                <marker date="1384468676000" expanded="true" signature="4631:4748" ph="UPDATE Chara... " />
+                <marker date="1384468676000" expanded="true" signature="5525:5676" ph="SELECT count... nbb_quest_daily" />
+                <marker date="1384468676000" expanded="true" signature="8492:8554" ph="UPDATE MEMB_... " />
+                <marker date="1384468676000" expanded="true" signature="8873:8976" ph="INSERT INTO nbb_quest_daily... " />
+                <marker date="1384468676000" expanded="true" signature="9205:9279" ph="SELECT count... nbb_pl_daily" />
+                <marker date="1384468676000" expanded="true" signature="9609:9700" ph="INSERT INTO nbb_pl_daily... " />
+                <marker date="1384468676000" expanded="true" signature="9807:9904" ph="UPDATE nbb_p... " />
+                <marker date="1384468676000" expanded="true" signature="10538:10630" ph="SELECT TOP 1... Character" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="471" column="8" lean-forward="true" selection-start-line="471" selection-start-column="8" selection-end-line="471" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sv_giftcode_up_reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/sv_giftcode_up_reset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <marker date="1517991256921" expanded="true" signature="789:841" ph="Select gcoin... MEMB_INFO" />
+                <marker date="1517991256921" expanded="true" signature="1126:1195" ph="SELECT statu... GiftCode" />
+                <marker date="1517991256921" expanded="true" signature="1738:1794" ph="SELECT Reset... Character" />
+                <marker date="1517991256921" expanded="true" signature="2169:2238" ph="UPDATE MEMB_... " />
+                <marker date="1517991256921" expanded="true" signature="2712:2818" ph="SELECT * FRO... GiftCode" />
+                <marker date="1517991256921" expanded="true" signature="3042:3212" ph="INSERT INTO GiftCode... " />
+                <marker date="1517991256921" expanded="true" signature="3510:3580" ph="SELECT gcoin... MEMB_INFO" />
+                <marker date="1517991256921" expanded="true" signature="4025:4194" ph="INSERT INTO Log_TienTe... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sv_giftcode_change.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/sv_giftcode_change.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="647">
+              <caret line="446" column="126" lean-forward="true" selection-start-line="446" selection-start-column="126" selection-end-line="446" selection-end-column="126" />
+              <folding>
+                <element signature="e#3209#4765#0#PHP" expanded="false" />
+                <element signature="e#4789#6347#0#PHP" expanded="false" />
+                <element signature="e#6372#7933#0#PHP" expanded="false" />
+                <element signature="e#7956#9517#0#PHP" expanded="false" />
+                <marker date="1517931026156" expanded="true" signature="1592:1687" ph="SELECT TOP 1... GiftCode" />
+                <marker date="1517931026156" expanded="true" signature="2512:2581" ph="SELECT CAST(... warehouse" />
+                <marker date="1517931026156" expanded="true" signature="11078:11124" ph="SELECT Class... Character" />
+                <marker date="1517931026156" expanded="true" signature="12968:13024" ph="SELECT Reset... Character" />
+                <marker date="1517931026156" expanded="true" signature="13428:13504" ph="UPDATE Chara... " />
+                <marker date="1517931026156" expanded="true" signature="13428:13523" ph="UPDATE Chara... " />
+                <marker date="1517931026156" expanded="true" signature="13651:13786" ph="UPDATE GiftC... " />
+                <marker date="1517931026156" expanded="true" signature="14000:14070" ph="SELECT gcoin... MEMB_INFO" />
+                <marker date="1517931026156" expanded="true" signature="14596:14765" ph="INSERT INTO Log_TienTe... " />
+                <marker date="1517931026156" expanded="true" signature="17405:17473" ph="UPDATE wareh... " />
+                <marker date="1517931026156" expanded="true" signature="17654:17789" ph="UPDATE GiftC... " />
+                <marker date="1517931026156" expanded="true" signature="17993:18063" ph="SELECT gcoin... MEMB_INFO" />
+                <marker date="1517931026156" expanded="true" signature="18634:18803" ph="INSERT INTO Log_TienTe... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_giftcode_up_reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buy_server_vip.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="697">
+              <caret line="41" column="79" lean-forward="false" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -46,8 +151,8 @@
       <file leaf-file-name="sv_buy_server_vip.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/sv_acc/sv_buy_server_vip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="59" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="736">
+              <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
               <folding>
                 <marker date="1517687020733" expanded="true" signature="682:734" ph="Select gcoin... MEMB_INFO" />
                 <marker date="1517687020733" expanded="true" signature="999:1068" ph="UPDATE MEMB_... " />
@@ -55,44 +160,6 @@
                 <marker date="1517687020733" expanded="true" signature="1492:1562" ph="SELECT gcoin... MEMB_INFO" />
                 <marker date="1517687020733" expanded="true" signature="1992:2161" ph="INSERT INTO Log_TienTe... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buy_server_vip.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sv_char_delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/sv_char/sv_char_delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="81" column="111" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="111" />
-              <folding>
-                <marker date="1517678642819" expanded="true" signature="595:648" ph="Select vpoin... MEMB_INFO" />
-                <marker date="1517678642819" expanded="true" signature="911:976" ph="DELETE FROM " />
-                <marker date="1517678642819" expanded="true" signature="1092:1186" ph="SELECT Id, G... AccountCharacter" />
-                <marker date="1517678642819" expanded="true" signature="1456:1526" ph="UPDATE Accou... " />
-                <marker date="1517678642819" expanded="true" signature="1756:1826" ph="UPDATE MEMB_... " />
-                <marker date="1517678642819" expanded="true" signature="2004:2074" ph="SELECT gcoin... MEMB_INFO" />
-                <marker date="1517678642819" expanded="true" signature="2496:2665" ph="INSERT INTO Log_TienTe... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deletechar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hosting/modules/char_manager/deletechar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="54" column="40" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="54" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,6 +174,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_quest_daily</find>
+      <find>$giftcode_up_reset_gcoin</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -119,15 +192,12 @@
         <option value="$PROJECT_DIR$/Hosting/templates/templates.php" />
         <option value="$PROJECT_DIR$/Hosting/js/eckcontrollers.js" />
         <option value="$PROJECT_DIR$/Server/sv_char/sv_char_delete.php" />
-        <option value="$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php" />
         <option value="$PROJECT_DIR$/Server/sv_gifcode_up_reset.php" />
         <option value="$PROJECT_DIR$/Hosting/modules/event/gifcode_up_reset.php" />
         <option value="$PROJECT_DIR$/Hosting/modules/event/giftcode_change.php" />
         <option value="$PROJECT_DIR$/Hosting/modules/event/giftcode_up_reset.php" />
         <option value="$PROJECT_DIR$/Hosting/templates/event/giftcode_up_reset.tpl" />
-        <option value="$PROJECT_DIR$/Server/sv_giftcode_up_reset.php" />
         <option value="$PROJECT_DIR$/Hosting/modules/event/giftcode_history.php" />
-        <option value="$PROJECT_DIR$/Server/sv_giftcode_change.php" />
         <option value="$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.html" />
         <option value="$PROJECT_DIR$/Hosting/config/config_buy_server_vip.php" />
         <option value="$PROJECT_DIR$/Hosting/templates/acc_manager.tpl" />
@@ -135,6 +205,10 @@
         <option value="$PROJECT_DIR$/Server/sv_acc/sv_buy_server_vip.php" />
         <option value="$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.tpl" />
         <option value="$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php" />
+        <option value="$PROJECT_DIR$/Hosting/config/event_tichluy_thenap.php" />
+        <option value="$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php" />
+        <option value="$PROJECT_DIR$/Server/sv_giftcode_change.php" />
+        <option value="$PROJECT_DIR$/Server/sv_giftcode_up_reset.php" />
       </list>
     </option>
   </component>
@@ -145,7 +219,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="4" />
     <option name="width" value="1932" />
@@ -191,39 +265,7 @@
             <path>
               <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
               <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Hosting" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="char_manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Hosting" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Hosting" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="acc_manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sv_acc" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="NBB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NBB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sv_char" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -265,15 +307,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517656757139</updated>
-      <workItem from="1517656760169" duration="17542000" />
+      <workItem from="1517656760169" duration="21340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17542000" />
+    <option name="totallyTimeSpent" value="21340000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -421,14 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/modules/questdaily.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2460">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hosting/modules/event/giftcode_tanthu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -492,39 +526,6 @@
             <marker date="1517681090660" expanded="true" signature="2324:2330" ph=" " />
             <marker date="1517681090660" expanded="true" signature="2333:2339" ph=" " />
             <marker date="1517681090660" expanded="true" signature="2339:2345" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/sv_giftcode_change.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="447" column="14" lean-forward="true" selection-start-line="447" selection-start-column="14" selection-end-line="447" selection-end-column="14" />
-          <folding>
-            <element signature="e#3209#4765#0#PHP" expanded="false" />
-            <element signature="e#4789#6347#0#PHP" expanded="false" />
-            <element signature="e#6372#7933#0#PHP" expanded="false" />
-            <element signature="e#7956#9517#0#PHP" expanded="false" />
-            <marker date="1517681828256" expanded="true" signature="1592:1687" ph="SELECT TOP 1... GiftCode" />
-            <marker date="1517681828256" expanded="true" signature="2512:2581" ph="SELECT CAST(... warehouse" />
-            <marker date="1517681828256" expanded="true" signature="11078:11124" ph="SELECT Class... Character" />
-            <marker date="1517681828256" expanded="true" signature="12972:13048" ph="UPDATE Chara... " />
-            <marker date="1517681828256" expanded="true" signature="12972:13067" ph="UPDATE Chara... " />
-            <marker date="1517681828256" expanded="true" signature="13195:13330" ph="UPDATE GiftC... " />
-            <marker date="1517681828256" expanded="true" signature="13544:13614" ph="SELECT gcoin... MEMB_INFO" />
-            <marker date="1517681828256" expanded="true" signature="14140:14309" ph="INSERT INTO Log_TienTe... " />
-            <marker date="1517681828256" expanded="true" signature="16906:16974" ph="UPDATE wareh... " />
-            <marker date="1517681828256" expanded="true" signature="17155:17290" ph="UPDATE GiftC... " />
-            <marker date="1517681828256" expanded="true" signature="17494:17564" ph="SELECT gcoin... MEMB_INFO" />
-            <marker date="1517681828256" expanded="true" signature="18135:18304" ph="INSERT INTO Log_TienTe... " />
           </folding>
         </state>
       </provider>
@@ -723,30 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/sv_giftcode_up_reset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <marker date="1517680943578" expanded="true" signature="688:740" ph="Select gcoin... MEMB_INFO" />
-            <marker date="1517680943578" expanded="true" signature="1021:1090" ph="UPDATE MEMB_... " />
-            <marker date="1517680943578" expanded="true" signature="1211:1280" ph="SELECT statu... GiftCode" />
-            <marker date="1517680943578" expanded="true" signature="2184:2290" ph="SELECT * FRO... GiftCode" />
-            <marker date="1517680943578" expanded="true" signature="2514:2684" ph="INSERT INTO GiftCode... " />
-            <marker date="1517680943578" expanded="true" signature="2982:3052" ph="SELECT gcoin... MEMB_INFO" />
-            <marker date="1517680943578" expanded="true" signature="3497:3666" ph="INSERT INTO Log_TienTe... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hosting/modules/acc_manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -779,18 +756,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hosting/config/config_buy_server_vip.php">
+    <entry file="file://$PROJECT_DIR$/Hosting/templates/acc_manager/buy_server_vip.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="459">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/sv_acc/sv_buy_server_vip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="59" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="736">
+          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
           <folding>
             <marker date="1517687020733" expanded="true" signature="682:734" ph="Select gcoin... MEMB_INFO" />
             <marker date="1517687020733" expanded="true" signature="999:1068" ph="UPDATE MEMB_... " />
@@ -803,8 +780,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hosting/modules/acc_manager/buy_server_vip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="697">
+          <caret line="41" column="79" lean-forward="false" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/config/config_buy_server_vip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/modules/questdaily.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="471" column="8" lean-forward="true" selection-start-line="471" selection-start-column="8" selection-end-line="471" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/sv_char/sv_char_questdaily.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="193" column="54" lean-forward="false" selection-start-line="193" selection-start-column="46" selection-end-line="193" selection-end-column="54" />
+          <folding>
+            <marker date="1384468676000" expanded="true" signature="1544:1597" ph="SELECT nbb_p... MEMB_INFO" />
+            <marker date="1384468676000" expanded="true" signature="2306:2373" ph="UPDATE MEMB_... " />
+            <marker date="1384468676000" expanded="true" signature="2651:2768" ph="UPDATE Chara... " />
+            <marker date="1384468676000" expanded="true" signature="3316:3431" ph="UPDATE Chara... " />
+            <marker date="1384468676000" expanded="true" signature="3983:4102" ph="UPDATE Chara... " />
+            <marker date="1384468676000" expanded="true" signature="4631:4748" ph="UPDATE Chara... " />
+            <marker date="1384468676000" expanded="true" signature="5525:5676" ph="SELECT count... nbb_quest_daily" />
+            <marker date="1384468676000" expanded="true" signature="8492:8554" ph="UPDATE MEMB_... " />
+            <marker date="1384468676000" expanded="true" signature="8873:8976" ph="INSERT INTO nbb_quest_daily... " />
+            <marker date="1384468676000" expanded="true" signature="9205:9279" ph="SELECT count... nbb_pl_daily" />
+            <marker date="1384468676000" expanded="true" signature="9609:9700" ph="INSERT INTO nbb_pl_daily... " />
+            <marker date="1384468676000" expanded="true" signature="9807:9904" ph="UPDATE nbb_p... " />
+            <marker date="1384468676000" expanded="true" signature="10538:10630" ph="SELECT TOP 1... Character" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/sv_giftcode_change.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="446" column="126" lean-forward="true" selection-start-line="446" selection-start-column="126" selection-end-line="446" selection-end-column="126" />
+          <folding>
+            <element signature="e#3209#4765#0#PHP" expanded="false" />
+            <element signature="e#4789#6347#0#PHP" expanded="false" />
+            <element signature="e#6372#7933#0#PHP" expanded="false" />
+            <element signature="e#7956#9517#0#PHP" expanded="false" />
+            <marker date="1517931026156" expanded="true" signature="1592:1687" ph="SELECT TOP 1... GiftCode" />
+            <marker date="1517931026156" expanded="true" signature="2512:2581" ph="SELECT CAST(... warehouse" />
+            <marker date="1517931026156" expanded="true" signature="11078:11124" ph="SELECT Class... Character" />
+            <marker date="1517931026156" expanded="true" signature="12968:13024" ph="SELECT Reset... Character" />
+            <marker date="1517931026156" expanded="true" signature="13428:13504" ph="UPDATE Chara... " />
+            <marker date="1517931026156" expanded="true" signature="13428:13523" ph="UPDATE Chara... " />
+            <marker date="1517931026156" expanded="true" signature="13651:13786" ph="UPDATE GiftC... " />
+            <marker date="1517931026156" expanded="true" signature="14000:14070" ph="SELECT gcoin... MEMB_INFO" />
+            <marker date="1517931026156" expanded="true" signature="14596:14765" ph="INSERT INTO Log_TienTe... " />
+            <marker date="1517931026156" expanded="true" signature="17405:17473" ph="UPDATE wareh... " />
+            <marker date="1517931026156" expanded="true" signature="17654:17789" ph="UPDATE GiftC... " />
+            <marker date="1517931026156" expanded="true" signature="17993:18063" ph="SELECT gcoin... MEMB_INFO" />
+            <marker date="1517931026156" expanded="true" signature="18634:18803" ph="INSERT INTO Log_TienTe... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/config/config_giftcode_up_reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/sv_giftcode_up_reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1517991256921" expanded="true" signature="789:841" ph="Select gcoin... MEMB_INFO" />
+            <marker date="1517991256921" expanded="true" signature="1126:1195" ph="SELECT statu... GiftCode" />
+            <marker date="1517991256921" expanded="true" signature="1738:1794" ph="SELECT Reset... Character" />
+            <marker date="1517991256921" expanded="true" signature="2169:2238" ph="UPDATE MEMB_... " />
+            <marker date="1517991256921" expanded="true" signature="2712:2818" ph="SELECT * FRO... GiftCode" />
+            <marker date="1517991256921" expanded="true" signature="3042:3212" ph="INSERT INTO GiftCode... " />
+            <marker date="1517991256921" expanded="true" signature="3510:3580" ph="SELECT gcoin... MEMB_INFO" />
+            <marker date="1517991256921" expanded="true" signature="4025:4194" ph="INSERT INTO Log_TienTe... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hosting/config/event_tichluy_thenap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
